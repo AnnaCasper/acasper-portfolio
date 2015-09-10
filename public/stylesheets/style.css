@@ -54,7 +54,7 @@ body {
   font-family: Open Sans, serif;
   font-weight: 400;
   line-height: 1.45;
-  color: #11151C;
+  color: #000000;
 }
 
 p {
@@ -152,10 +152,11 @@ a:hover {
 }
 
 .resume {
-  display: block;
+  display: inline-block;
   box-sizing: border-box;
   width: 100%;
-  height: 1100px;
+  height: auto;
+	padding: 40px;
   background-color:#514658;
   background-size: 100% 1100px;
 }
@@ -266,11 +267,11 @@ a:hover {
 	/*border: 1px solid black;*/
 }
 .tools p {
-	padding-left: 10px
+	padding-left: 0px
 
 }
 .languages p {
-	padding-left: 10px
+	padding-left: 0px
 }
 
 .community {
@@ -328,7 +329,6 @@ a:hover {
 	width: 700px;
 	height: auto;
 	overflow: hidden;
-	margin-bottom: 40px;
 	border: 1px solid rgba(0,0,0, .5);
 	padding: 20px;
 	padding-left: 40px;
@@ -359,11 +359,119 @@ a:hover {
   display: block;
   box-sizing: border-box;
   width: 100%;
-  height: 780px;
+  height: auto;
   background-size: 100% 780px;
   background-color: #3D4254;
+	padding: 20px;
 }
 
 .contactIcon {
 	margin: 20px
+}
+
+.large-portfolio {
+	line-height: 400px;
+	display: inline-block;
+	width: 54%;
+	height: 400px;
+	margin: 20px;
+}
+
+.small-portfolio {
+	line-height: 400px;
+	width: 40%;
+	height: 400px;
+	margin: 20px;
+	display: inline-block;
+}
+
+.lyst {
+	background-image: url('/images/lyst.png');
+	background-size: cover;
+}
+.overlay {
+	background:rgba(0,0,0,.75);
+	text-align:center;
+  width: 100%;
+	height: 100%;
+  opacity:0;
+  -webkit-transition: opacity .25s ease;
+	-moz-transition: opacity .25s ease;
+}
+
+.lyst:hover .overlay {
+	opacity:1;
+}
+
+.flashcards {
+	background-image: url('/images/flashcards.png');
+	background-size: cover;
+}
+
+.flashcards:hover .overlay {
+	opacity:1;
+}
+
+.workout {
+	background-image: url('/images/workout.png');
+	background-size: cover;
+}
+
+.workout:hover .overlay {
+	opacity:1;
+}
+
+.adventure {
+	background-image: url('/images/adventure2.png');
+	background-size: cover;
+}
+
+.adventure:hover .overlay {
+	opacity:1;
+}
+
+.blog {
+	background-image: url('/images/blog.png');
+	background-size: cover;
+}
+
+.blog:hover .overlay {
+	opacity:1;
+}
+
+.omdb {
+	background-image: url('/images/omdb.png');
+	background-size: cover;
+}
+
+.omdb:hover .overlay {
+	opacity:1;
+}
+
+.omdb, .blog, .adventure, .workout, .flashcards, .lyst, :hover{
+	cursor: pointer;
+}
+.adventure p {
+	font-size: 30px;
+	color: white;
+}
+.blog p {
+	font-size: 30px;
+	color: white;
+}
+.workout p {
+	font-size: 30px;
+	color: white;
+}
+.flashcards p {
+	font-size: 30px;
+	color: white;
+}
+.omdb p {
+	font-size: 30px;
+	color: white;
+}
+.lyst p {
+	font-size: 30px;
+	color: white;
 }
