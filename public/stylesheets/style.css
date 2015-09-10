@@ -102,7 +102,10 @@ html, body {
   background-size: 100% 780px;
   background-image: url('/images/sea.jpeg');
 }
-
+a {
+	text-decoration: none;
+	color:inherit;
+}
 a:hover {
   cursor:pointer;
   color: #92140C;
@@ -202,7 +205,7 @@ a:hover {
 
 .projects {
 	margin-top: 140px;
-	width: 49%;
+	width: 58%;
 	height: 460px;
 	float: left;
 }
@@ -250,42 +253,42 @@ a:hover {
 
 .tools {
 	padding-left: 5px;
-	width: 49%;
+	width: 40%;
 	float: right;
-	height: 200px;
+	height: 190px;
 }
 
 .languages {
 	margin-top: 140px;
-	width: 49%;
+	width: 40%;
 	float: right;
-	height: 180px;
+	height: 210px;
 	/*border: 1px solid black;*/
 }
 .tools p {
-	padding-left: 20px
+	padding-left: 10px
 
 }
 .languages p {
-	padding-left: 20px
+	padding-left: 10px
 }
 
 .community {
 	text-align: center;
-	width: 49%;
+	width: 40%;
 	float: right;
-	height: 50px;
+	height: 65px;
 	color: #747A7D;
 }
 
 .lang {
-	width: 45%;
+	width: 60%;
 	float: left;
 	color: #747A7D;
 }
 
 .bubbles {
-	width: 35%;
+	width: 25%;
 	float: right;
 }
 
