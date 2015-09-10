@@ -340,9 +340,11 @@ a:hover {
   display: block;
   box-sizing: border-box;
   width: 100%;
-  height: 780px;
+  height: auto;
+	padding: 60px;
   background-size: 100% 780px;
   background-color: #B2B7AD;
+	background-image: url('/images/birds.png');
 }
 
 .contactdiv {
@@ -370,6 +372,7 @@ a:hover {
 }
 
 .large-portfolio {
+	border-radius: 5px;
 	line-height: 400px;
 	display: inline-block;
 	width: 54%;
@@ -378,6 +381,7 @@ a:hover {
 }
 
 .small-portfolio {
+	border-radius: 5px;
 	line-height: 400px;
 	width: 40%;
 	height: 400px;
@@ -390,7 +394,7 @@ a:hover {
 	background-size: cover;
 }
 .overlay {
-	background:rgba(0,0,0,.75);
+	background:rgba(61,66,84, .8);
 	text-align:center;
   width: 100%;
 	height: 100%;
@@ -453,25 +457,40 @@ a:hover {
 }
 .adventure p {
 	font-size: 30px;
-	color: white;
+	color: #B2B7AD;
 }
 .blog p {
 	font-size: 30px;
-	color: white;
+	color: #B2B7AD;
 }
 .workout p {
 	font-size: 30px;
-	color: white;
+	color: #B2B7AD;
 }
 .flashcards p {
 	font-size: 30px;
-	color: white;
+	color: #B2B7AD;
 }
 .omdb p {
 	font-size: 30px;
-	color: white;
+	color: #B2B7AD;
 }
 .lyst p {
 	font-size: 30px;
-	color: white;
+	color: #B2B7AD;
+}
+
+.about-text {
+	width: 70%;
+	height: 700px;
+	background-color: rgba(81,70,88, .8);
+	margin: 0 auto;
+	border-radius: 5px;
+	padding: 40px;
+	box-sizing: border-box;
+}
+
+.about-text p {
+	color: #B2B7AD;
+	font-size: 18px;
 }
