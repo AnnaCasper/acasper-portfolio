@@ -494,3 +494,11 @@ a:hover {
 	color: #B2B7AD;
 	font-size: 18px;
 }
+
+.fa-overlay {
+	color: #B2B7AD;
+}
+
+.fa-overlay:hover {
+	color: #92140C;
+}
