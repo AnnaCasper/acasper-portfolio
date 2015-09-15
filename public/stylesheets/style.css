@@ -368,7 +368,12 @@ a:hover {
 }
 
 .contactIcon {
-	margin: 20px
+	color: #92140C;
+	margin: 20px;
+}
+
+.contactIcon:hover {
+	color: #3D4254;
 }
 
 .large-portfolio {
