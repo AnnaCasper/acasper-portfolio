@@ -11,7 +11,8 @@
     <script type="text/javascript" src="/javascripts/app.js"></script>
   </head>
   <body ng-controller="ScrollController">
-    <div class="nav-bar-wrapper">
+    <div class="nav-bar-wrapper" ng-hide="header">
+    </div>
       <div class="navBar">
         <a><h2 class="nav" ng-click="gotoElement('contact')">contact</h2></a>
         <a><h2 class="nav" ng-click="gotoElement('resume')">resume</h2></a>
@@ -19,7 +20,7 @@
         <a><h2 class="nav" ng-click="gotoElement('portfolio')">portfolio</h2></a>
         <a><h2 class="nav" ng-click="gotoElement('home')">home</h2></a>
       </div>
-    </div>
+
     <header id="home" class="siteHeader">
       <div class="headerFirstName">
         <h2>ANNA</h2>
@@ -86,9 +87,35 @@
       </div>
       <div id="about" class="aboutdiv">
         <div class='about-text'>
-          <p>Anna Casper, Colorado Native.</p>
+          <p>
+            Hello! My name is Anna Casper. As a Colorado Native, I graduated from Colorado State University in 2012 with a degree in Art History.
+            Quickly realizing that I didn't want to spend my life in a museum, I set out to find a career that was not only creative,
+            but also fast-paced. After spending an exciting stint planning mud events in Brooklyn, NY, I returned to Denver to explore
+            the world of specialty cheese while working at the American Cheese Society.
+          </p>
           <br>
-          <p></p>
+          <p>
+            Throughout these adventures, I saw technology being used
+            (or not used) in some amazing ways. These experiences have shown me the importance of utilizing technology at its full extent to
+            help grow and educate our world. This inspiration led me to Galvanize's Full Stack Program where I intended to gain the tools I needed
+            in order to continue on my 'fast-paced and creative' career path.
+          </p>
+          <br>
+          <p>
+            And boy did I gain the tools I needed! I am now ready to solve the interesting web development challenges that are to come. At
+            Galvanize I focused on the MEAN Stack and concentrated on becoming a well-rounded full stack developer. I am comfortable creating
+            front end applications (using HTML, Angular, jQuery, CSS and SASS) as well as building back end RESTful web services (using Node.js,
+            Express, MongoDB, and PostgreSQL).
+          </p>
+          <br>
+          <p>
+            In my spare time, I enjoy acrylic painting, indoor cycling, reading and brunch. I love trying out new restaurants, seeing comedy shows and going to concerts. I have been known to run a few 5k's, 10k's and a half
+            marathon - but all very slowly. One day, I would like to learn how to cook, but at this point, my most gourmet meal is bean and cheese burritos.
+          </p>
+          <br>
+          <p>
+            If you would like to know more about my experience in web development, please contact me via email or LinkedIn. I would love to hear from you!
+          </p>
         </div>
       </div>
       <div id="resume" class="resume">

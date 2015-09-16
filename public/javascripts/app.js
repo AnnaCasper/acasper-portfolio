@@ -93,12 +93,22 @@ app.service('anchorSmoothScroll', function ($document, $window) {
 });
 
 app.controller('ScrollController', function ($scope, $location, anchorSmoothScroll) {
+    $scope.header = true;
     $scope.gotoElement = function(x) {
       // set the location.hash to the id of
       // the element you wish to scroll to.
-      $location.hash(x);
+      if(x === 'home'){
+        $scope.header = true;
+        $location.hash(x);
 
-      // call $anchorScroll()
-      anchorSmoothScroll.scrollTo(x);
+        // call $anchorScroll()
+        anchorSmoothScroll.scrollTo(x);
+      } else {
+        $scope.header = false;
+        $location.hash(x);
+
+        // call $anchorScroll()
+        anchorSmoothScroll.scrollTo(x);
+      }
     };
   });
